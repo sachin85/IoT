@@ -1,0 +1,15 @@
+1. Download the Raspberry folder on the Pi.
+2  Unzip it.
+3. open the shell in the Pi
+4. Go to the location where you have downloaded the fodler by using CD command (as below).
+ cd "path of the unzipped folder"
+5. Run below 2 commands one by one:
+ sudo chmod u+x setup.sh
+ sudo ./setup.sh
+6. After execution is complete, you should see one more folder gatting created in this path for iot-python-sdk.
+7. If you don't have sensor connected, open config.py, and update the Simulated value to "True".
+8. Run the following command on the shell
+Python Device.py "the device connection string that I shared with you"
+
+
+
