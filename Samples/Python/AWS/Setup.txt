@@ -1,0 +1,10 @@
+1. Download the Python SDK form here: https://s3.amazonaws.com/aws-iot-device-sdk-python/aws-iot-device-sdk-python-latest.zip
+2. Unzip the package, navigate to the folder path in terminal and install the SDK by running below command.
+sudo python setup.py install
+3. Create a folder for your app.
+4. Copy the AWSIoTPythonSDK folder which should be present in SDK path to the app directory.
+5. Create a sub directory under App with the name "Certs"
+6. Copy the AWS Root CA certificate to Certs as aws-root-cert.pem
+7. Copy the certificate of your device in the cert directory. You can give it a friendly name if you want.
+8. Copy the private key file of your device in the cert directory.You can give it a friendly name if you want.
+9. Create a app.py.
