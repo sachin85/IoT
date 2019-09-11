@@ -6,7 +6,7 @@ import iothub_client
 from iothub_client import IoTHubClient, IoTHubClientError, IoTHubTransportProvider, IoTHubClientResult
 from iothub_client import IoTHubMessage, IoTHubMessageDispositionResult, IoTHubError, DeviceMethodReturnValue
 
-CONNECTION_STRING = "HostName=IoTDemoClass.azure-devices.net;DeviceId=Device1;SharedAccessKey=68Z04SYT67d/2e2OhnkVp3bvPrUM0cRErxaYRWlpv+k="
+CONNECTION_STRING = "<<provide your device connection string here>>"
 
 PROTOCOL = IoTHubTransportProvider.MQTT
 MESSAGE_TIMEOUT = 10000
